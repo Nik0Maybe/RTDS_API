@@ -118,8 +118,7 @@ Use `wrk` to load test the `/stream/start` endpoint.
 wrk -t10 -c1000 -d30s -H "X-API-Key: your-secure-api-key" http://localhost:8080/stream/start
 ```
 
-**Example output:**
-![Performance Metrics](./images/performance_metrics.png)
+
 
 ## API Endpoints
 
